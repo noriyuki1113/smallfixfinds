@@ -5,9 +5,8 @@ export const metadata = {
   description: "Measure your sink opening and get a verdict — Fits, Tight, or Won't fit — before you buy an over-sink roll-up dish drying rack.",
 };
 
-// NOTE for production integration: replace this placeholder with the same
-// affiliate URL used on /items/roll-up-drying-mat (do not invent a tag here).
-const AMAZON_URL = undefined;
+// Same affiliate URL as the live /items/roll-up-drying-mat page (verified 2026-11-21).
+import { AMAZON_URL } from "../../../lib/content";
 
 export default function Page() {
   return (
@@ -31,7 +30,7 @@ export default function Page() {
         existing towel or rack, then put it away when the counter is needed.
       </p>
       <p>
-        Related: <a href="https://www.smallfixfinds.com/items/roll-up-drying-mat">Tomorotec 17.7" × 15.5" Roll-Up Dish Drying Rack — the find this checker was built for</a>
+        Related: <a href="/items/roll-up-drying-mat">Tomorotec 17.7" × 15.5" Roll-Up Dish Drying Rack — the find this checker was built for</a>
       </p>
     </article>
   );
