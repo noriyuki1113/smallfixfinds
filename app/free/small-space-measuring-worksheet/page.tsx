@@ -82,7 +82,9 @@ export default function Page() {
       <p>
         Got your sink span? Put it into the{" "}
         <a href="/tools/will-it-fit-over-sink-rack">over-sink rack fit checker</a> and get a Fits /
-        Tight / Won&apos;t fit answer before you spend anything.
+        Tight / Won&apos;t fit answer before you spend anything. Measured your door instead? The{" "}
+        <a href="/tools/will-it-fit-over-door-hook">over-door hook fit checker</a> turns door
+        thickness and top gap into the same kind of verdict.
       </p>
       <p className="no-print">
         Coming soon: the Small-Space Fit Kit turns these measurements into a verdict for 12 common

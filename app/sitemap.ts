@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
     "", "/guides", "/collections", "/items", "/about", "/privacy",
     "/tools/will-it-fit-over-sink-rack",
+    "/tools/will-it-fit-over-door-hook",
     "/free/small-space-measuring-worksheet",
     ...GUIDES.map((g) => `/guides/${g.slug}`),
     ...CATEGORIES.map((c) => `/categories/${c.slug}`),
