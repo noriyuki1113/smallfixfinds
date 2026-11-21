@@ -39,3 +39,5 @@ a final visual check of the preview.
 1. Final visual check of the preview after the design pass.
 2. Connect the custom domain smallfixfinds.com to the Pages project (owner action in Cloudflare dashboard).
 3. After connection: enable Cloudflare Web Analytics, revise the privacy policy's Pinterest section, verify all routes on the live domain.
+
+<!-- redeploy 2026-11-21: enable Web Analytics beacon injection -->
