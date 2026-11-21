@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "", "/guides", "/collections", "/items", "/about", "/privacy",
     "/tools/will-it-fit-over-sink-rack",
     "/tools/will-it-fit-over-door-hook",
+    "/tools/will-it-fit-under-sink-organizer",
     "/free/small-space-measuring-worksheet",
     ...GUIDES.map((g) => `/guides/${g.slug}`),
     ...CATEGORIES.map((c) => `/categories/${c.slug}`),

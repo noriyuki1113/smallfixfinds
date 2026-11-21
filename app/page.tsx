@@ -25,6 +25,7 @@ export default function Home() {
         <p>One printable page with the exact measurements to write down before ordering — kitchen, doors, desk, bathroom and entryway.</p>
         <p><a href="/free/small-space-measuring-worksheet">Get the free worksheet</a> · <a href="/tools/will-it-fit-over-sink-rack">Then check your sink span with the fit checker</a></p>
         <p><a href="/tools/will-it-fit-over-door-hook">Buying over-door hooks? Check your door thickness and top gap first</a></p>
+        <p><a href="/tools/will-it-fit-under-sink-organizer">Under-sink organizer? Check it fits around your pipes, not just the cabinet</a></p>
       </article>
 
       <h2>Practical guides</h2>
