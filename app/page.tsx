@@ -19,6 +19,13 @@ export default function Home() {
         </article>
       ))}
 
+      <h2>Free: measure before you buy</h2>
+      <article className="card">
+        <h3><a href="/free/small-space-measuring-worksheet">The Small-Room Measuring Worksheet</a></h3>
+        <p>One printable page with the exact measurements to write down before ordering — kitchen, doors, desk, bathroom and entryway.</p>
+        <p><a href="/free/small-space-measuring-worksheet">Get the free worksheet</a> · <a href="/tools/will-it-fit-over-sink-rack">Then check your sink span with the fit checker</a></p>
+      </article>
+
       <h2>Practical guides</h2>
       {GUIDES.map((g) => <GuideCard key={g.slug} guide={g} />)}
 

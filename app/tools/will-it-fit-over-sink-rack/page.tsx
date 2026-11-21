@@ -32,6 +32,9 @@ export default function Page() {
       <p>
         Related: <a href="/items/roll-up-drying-mat">Tomorotec 17.7" × 15.5" Roll-Up Dish Drying Rack — the find this checker was built for</a>
       </p>
+      <p>
+        Measuring the whole room? Grab the free <a href="/free/small-space-measuring-worksheet">Small-Room Measuring Worksheet</a> — one printable page for kitchen, doors, desk, bathroom and entryway.
+      </p>
     </article>
   );
 }
