@@ -12,7 +12,7 @@ export default function CollectionsIndex() {
       <p>Browse by room, constraint or goal. We explain the checks that help you decide whether an idea fits.</p>
       <h2>Explore collections</h2>
       {COLLECTIONS.map((c) => (
-        <article key={c.slug} style={{ border: "1px solid #ddd", borderRadius: 10, padding: 16, margin: "12px 0" }}>
+        <article key={c.slug} className="card">
           <h3><a href={`/collections/${c.slug}`}>{c.name}</a></h3>
           <p>{c.intro}</p>
         </article>

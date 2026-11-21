@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import "./globals.css";
 
 export const metadata = {
   title: "Small Fix Finds | Small problems. Smart little fixes.",
@@ -8,10 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body style={{ fontFamily: "system-ui, sans-serif", maxWidth: 760, margin: "24px auto", padding: "0 16px", lineHeight: 1.6, color: "#222" }}>
-        <header style={{ display: "flex", gap: 16, flexWrap: "wrap", alignItems: "baseline", borderBottom: "1px solid #e5e5e5", paddingBottom: 12 }}>
-          <a href="/" style={{ fontWeight: 700, fontSize: 20, color: "inherit", textDecoration: "none" }}>Small Fix Finds</a>
-          <nav style={{ display: "flex", gap: 14 }}>
+      <body>
+        <header className="site-header">
+          <a href="/" className="brand">Small Fix Finds</a>
+          <nav className="site-nav">
             <a href="/">Home</a>
             <a href="/guides">Guides</a>
             <a href="/collections">Collections</a>
@@ -20,7 +21,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           </nav>
         </header>
         <main>{children}</main>
-        <footer style={{ marginTop: 56, borderTop: "1px solid #e5e5e5", paddingTop: 16, color: "#555", fontSize: 14 }}>
+        <footer className="site-footer">
           <p><strong>Small Fix Finds</strong><br />
           Independent curation—not affiliated with any retailer. Prices and availability can change. Affiliate links are clearly labeled when active.</p>
           <p><a href="/about">Research &amp; disclosures</a> · <a href="/privacy">Privacy</a></p>

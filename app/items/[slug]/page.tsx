@@ -31,7 +31,7 @@ export default async function ItemPage({ params }: { params: Promise<{ slug: str
       </ul>
       <p style={{ color: "#666", fontSize: 14 }}>Researched: This page summarizes listed specifications and likely fit. It is not a claim of first-hand use.</p>
       <p>
-        <a href={AMAZON_URL} rel="sponsored nofollow noopener" target="_blank"><strong>Check details on Amazon</strong></a>
+        <a href="/go/offer?item=roll-up-drying-mat" rel="sponsored nofollow noopener" target="_blank"><strong>Check details on Amazon</strong></a>
       </p>
       <p style={{ color: "#555", fontSize: 14 }}>
         As an Amazon Associate I earn from qualifying purchases. Prices, shipping, product details, and availability may change. Confirm the current listing before ordering. Listing details last checked: {ITEM.updated}

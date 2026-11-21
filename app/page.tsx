@@ -12,7 +12,7 @@ export default function Home() {
 
       <h2>What would you like to make easier?</h2>
       {CATEGORIES.map((c) => (
-        <article key={c.slug} style={{ border: "1px solid #ddd", borderRadius: 10, padding: 16, margin: "12px 0" }}>
+        <article key={c.slug} className="card">
           <h3><a href={`/categories/${c.slug}`}>{c.name}</a></h3>
           <p>{c.description}</p>
           <p><a href={`/categories/${c.slug}`}>See ideas</a></p>
