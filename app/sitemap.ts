@@ -12,6 +12,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/tools/will-it-fit-over-door-hook",
     "/tools/will-it-fit-under-sink-organizer",
     "/tools/will-it-fit-sofa-through-door",
+    "/tools/will-it-fit-fridge-gap-cart",
+    "/tools/will-it-fit-tension-rod",
     "/free/small-space-measuring-worksheet",
     ...GUIDES.map((g) => `/guides/${g.slug}`),
     ...CATEGORIES.map((c) => `/categories/${c.slug}`),

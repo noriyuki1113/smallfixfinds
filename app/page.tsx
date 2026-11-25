@@ -27,6 +27,8 @@ export default function Home() {
         <p><a href="/tools/will-it-fit-over-door-hook">Buying over-door hooks? Check your door thickness and top gap first</a></p>
         <p><a href="/tools/will-it-fit-under-sink-organizer">Under-sink organizer? Check it fits around your pipes, not just the cabinet</a></p>
         <p><a href="/tools/will-it-fit-sofa-through-door">Ordering a sofa? Check it fits through your door before delivery day</a></p>
+        <p><a href="/tools/will-it-fit-fridge-gap-cart">Eyeing the gap beside the fridge? Check a slim cart really fits it first</a></p>
+        <p><a href="/tools/will-it-fit-tension-rod">Tension rod? Match your opening to its range before you buy</a></p>
       </article>
 
       <h2>Practical guides</h2>
